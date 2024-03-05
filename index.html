@@ -88,7 +88,6 @@
             const body = document.body;
             const currentColor = window.getComputedStyle(body).getPropertyValue('background-color');
             const isNightMode = currentColor === 'rgb(0, 0, 0)' || currentColor === '#000' || currentColor === 'black';
-
             body.style.backgroundColor = isNightMode ? '#fff' : '#000';
         }
         function redirectToGitHub() {
